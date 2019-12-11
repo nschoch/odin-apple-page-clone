@@ -1,0 +1,68 @@
+* {
+  border: 0px solid black;
+}
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding 0;
+}
+
+main { 
+  background-image: url(images/hero.jpg);
+  background-position: center 644px;
+  height: 100%;
+  left: 10%;
+  overflow: hidden;
+  height: 644px;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 1020px;
+}
+
+.mid {
+  display: flex;
+  border: 1;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  height: 37px;
+  margin-top: 83px;
+  width: 980px;
+  text-shadow: 0 -1.2px black;
+  z-index: 10;
+}
+
+.nav-list li {
+  width: 300px;
+  height: 100%;
+  background: #dddddd;
+  background: linear-gradient(#757575, #8d8d8d 4%, #6d6d6d 50%, #5e5e5e 50%, #797979 97%, #484848 100%);
+  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  margin: auto;
+}
+
+
+#apple img {
+  width: 23px;
+}
+
+.nav-list a {
+  display: block;
+  padding: 8px;
+  float: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
